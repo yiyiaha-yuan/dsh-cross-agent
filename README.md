@@ -1,4 +1,4 @@
-# dsh-cross-agent
+﻿# dsh-cross-agent
 
 Opt-in cross-session mailbox and direct messaging for **independent** DeepSeek Harness agents.
 
@@ -15,11 +15,11 @@ DeepSeek Harness `send_message` works inside one subagent tree. This plugin conn
 
 1. Open **Plugins** in DSH.
 2. Choose **Add plugin** and select this directory.
-3. Enable `dsh-cross-agent`.
+3. Enable `@yiyiaha-yuan/dsh-cross-agent`.
 
 ### From npm (after publishing)
 
-Install the package `dsh-cross-agent` into your DSH profile, then enable the bundle.
+Install the package `@yiyiaha-yuan/dsh-cross-agent` into your DSH profile, then enable the bundle.
 
 ## Use
 
@@ -84,3 +84,5 @@ See [SECURITY.md](SECURITY.md). Do not put secrets in messages; the store is loc
 ## License
 
 MIT
+
+

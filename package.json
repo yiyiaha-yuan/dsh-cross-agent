@@ -1,5 +1,5 @@
 ﻿{
-  "name": "dsh-cross-agent",
+  "name": "@yiyiaha-yuan/dsh-cross-agent",
   "version": "0.2.0",
   "description": "Opt-in cross-session mailbox and direct messaging for independent DeepSeek Harness agents.",
   "type": "module",
@@ -56,5 +56,6 @@
     "access": "public"
   }
 }
+
 
 

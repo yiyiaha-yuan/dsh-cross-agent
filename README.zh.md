@@ -1,6 +1,6 @@
-# 中文说明
+﻿# 中文说明
 
-`dsh-cross-agent` 是 DeepSeek Harness 的**跨会话信箱**插件，用来连接同一台机器、同一个 DSH profile 下的两个独立会话。
+`@yiyiaha-yuan/dsh-cross-agent` 是 DeepSeek Harness 的**跨会话信箱**插件，用来连接同一台机器、同一个 DSH profile 下的两个独立会话。
 
 ## 功能
 
@@ -11,7 +11,7 @@
 
 ## 安装
 
-在 DSH 的 **插件 / Plugins** 里选择 **Add plugin**，选中本目录，然后启用 `dsh-cross-agent`。
+在 DSH 的 **插件 / Plugins** 里选择 **Add plugin**，选中本目录，然后启用 `@yiyiaha-yuan/dsh-cross-agent`。
 
 ## 使用
 
@@ -37,3 +37,5 @@
 ## 许可
 
 MIT
+
+

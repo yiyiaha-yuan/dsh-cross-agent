@@ -1,5 +1,5 @@
-window.__ModuleLoader__.load({
-  id: 'dsh-cross-agent',
+﻿window.__ModuleLoader__.load({
+  id: '@yiyiaha-yuan/dsh-cross-agent',
   factory(require) {
     const React = require('react')
     const h = React.createElement
@@ -272,3 +272,4 @@ window.__ModuleLoader__.load({
     }
   },
 })
+

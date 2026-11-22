@@ -1,4 +1,4 @@
-# Publishing
+﻿# Publishing
 
 ## 1. Replace the repository URL
 
@@ -54,7 +54,7 @@ git push -u origin main
 npm publish --access public
 ```
 
-`dsh-cross-agent` must be available; if the name is taken, use a scope such as `@YOUR_NAME/dsh-cross-agent` and update:
+`@yiyiaha-yuan/dsh-cross-agent` must be available; if the name is taken, use a scope such as `@YOUR_NAME/@yiyiaha-yuan/dsh-cross-agent` and update:
 
 - `package.json` `name`
 - `cordis.patch.yml` `name`
@@ -63,7 +63,7 @@ npm publish --access public
 
 ## 5. Install from the published package
 
-In DSH **Plugins → Add plugin**, install `dsh-cross-agent` (or your scope), then enable it.
+In DSH **Plugins → Add plugin**, install `@yiyiaha-yuan/dsh-cross-agent` (or your scope), then enable it.
 
 ## Checklist
 
@@ -73,3 +73,5 @@ In DSH **Plugins → Add plugin**, install `dsh-cross-agent` (or your scope), th
 - [ ] LICENSE present
 - [ ] `npm pack --dry-run` contains no screenshots or local data
 - [ ] README matches the actual UI and tool names
+
+
