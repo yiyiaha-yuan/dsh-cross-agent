@@ -1,0 +1,23 @@
+# dependencies
+node_modules/
+.pnpm-store/
+
+# logs and local data
+*.log
+.env
+.env.*
+.DS_Store
+Thumbs.db
+
+# local test artifacts
+coverage/
+test-results/
+playwright-report/
+*.mp4
+*.webm
+*.png
+*.jpg
+*.jpeg
+
+# package artifacts
+*.tgz

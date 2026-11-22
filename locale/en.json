@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Cross-agent mailbox",
+    "description": "Opt-in cross-session mailbox for independent DSH agents.",
+    "detail": "docs/DETAIL.md"
+  }
+}

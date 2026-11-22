@@ -1,0 +1,59 @@
+﻿{
+  "name": "dsh-cross-agent",
+  "version": "0.2.0",
+  "description": "Opt-in cross-session mailbox and direct messaging for independent DeepSeek Harness agents.",
+  "type": "module",
+  "license": "MIT",
+  "author": "YG",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "agent",
+    "multi-agent",
+    "mailbox"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yiyiha-yuan/dsh-cross-agent.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yiyiha-yuan/dsh-cross-agent/issues"
+  },
+  "homepage": "https://github.com/yiyiha-yuan/dsh-cross-agent#readme",
+  "engines": {
+    "node": ">=20"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "docs",
+    "README.md",
+    "README.zh.md",
+    "PUBLISHING.md",
+    "LICENSE",
+    "SECURITY.md",
+    "CHANGELOG.md",
+    "icon.svg"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true
+    }
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
+

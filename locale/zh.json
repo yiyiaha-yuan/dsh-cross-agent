@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "跨会话信箱",
+    "description": "给独立 DSH 会话一个可开关的跨会话信箱。",
+    "detail": "docs/DETAIL.md"
+  }
+}
